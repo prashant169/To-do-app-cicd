@@ -28,9 +28,13 @@
      history
 
  #install node js 
+
 17) sudo dnf module install nodejs:18/common
+
 18) cd todoapp 
+
 19) npm install	
+
 20) sudo mode src/index.js
 
 21) ipv4 + 3000
