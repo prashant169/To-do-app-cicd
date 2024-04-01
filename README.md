@@ -27,10 +27,24 @@
  16) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      history
 
- sudo dnf module install nodejs:18/common
- cd todoapp 
- npm install	
- 
+ #install node js 
+17) sudo dnf module install nodejs:18/common
+18) cd todoapp 
+19) npm install	
+20) sudo mode src/index.js
+
+21) ipv4 + 3000
+
+22)  ps-a
+23)  sudo kill -9
+
+24)  run check | data is persisted or not 
+
+25)  npm install pm2
+26)  pm2 start "node src/index.js
+27)  pm2 status
+ 28) pm2 restart "node src/index.js
+
 #Docker Install
 https://docs.docker.com/engine/install/centos/
  1) sudo yum upgrade
@@ -58,7 +72,6 @@ https://docs.docker.com/engine/install/centos/
 7) sudo docker images
    docker images | head - 5
 8) docker run -dp 8000:8000 node-app-todo
-
 docker ps  (images)
 docker kill id
 
