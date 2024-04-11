@@ -28,10 +28,17 @@
  14) sudo systemctl start jenkins
  15) sudo systemctl status jenkins
 
+ 
+    *Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
+EC2 > Instances > Click on
+In the bottom tabs -> Click on Security
+Security groups
+Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
+# Login to Jenkins using the below URL
  16) ipv4 + 8080
- 17) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 18) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      history
-
+Install the Docker Pipeline plugin in Jenkins:"Docker Pipeline".
  # install node js 
 
 17) sudo dnf module install nodejs:18/common
