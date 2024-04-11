@@ -1,33 +1,38 @@
 # to-do-app
-  https://www.jenkins.io/doc/book/installing/linux/
   
-  1) Create AWS EC2 instance   (jenkinsmaster)
+  AWS EC2 Instance
+  1) Create EC2 instance (jenkinsmaster)
   1)  man yum 
      sudo yum upgrade
   3) man git
   4) sudo yum install git
-  5) sudo yum install wget
 
-  6) sudo wget -O /etc/yum.repos.d/jenkins.repo \
+# Install Jenkins.
+
+ https://www.jenkins.io/doc/book/installing/linux/
+ Long Term Support release
+ 
+  6) sudo yum install wget
+    sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
     
-  7) sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-  8) sudo yum upgrade
+  8) sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+  9) sudo yum upgrade
   
-  9) sudo yum install java-11-openjdk 149m
- 10) sudo yum install jenkins    82 m
- 11) sudo systemctl daemon-reload
+ 10) sudo yum install java-11-openjdk         149m
+ 11) sudo yum install jenkins                 82 m
+ 12) sudo systemctl daemon-reload
 
- 12) sudo systemctl status jenkins
+ 13) sudo systemctl status jenkins
     sudo systemctl enable jenkins
- 13) sudo systemctl start jenkins
- 14) sudo systemctl status jenkins
+ 14) sudo systemctl start jenkins
+ 15) sudo systemctl status jenkins
 
- 15) ipv4 + 8080
- 16) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 16) ipv4 + 8080
+ 17) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      history
 
- #install node js 
+ # install node js 
 
 17) sudo dnf module install nodejs:18/common
 
@@ -49,7 +54,7 @@
 27)  pm2 status
  28) pm2 restart "node src/index.js
 
-#Docker Install
+# Docker Install
 https://docs.docker.com/engine/install/centos/
  1) sudo yum upgrade
  2) sudo yum remove docker \
@@ -61,17 +66,17 @@ https://docs.docker.com/engine/install/centos/
                   docker-logrotate \
                   docker-engine
 3) sudo yum install -y yum-utils
-4) sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo     
-         
+   sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo         
 5) sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
- OR
+   OR
    sudo yum update
    sudo yum install docker.io -y
-6) sudo systemctl status docker
-7) sudo systemctl start docker
-8) sudo yum install git
+   
+7) sudo systemctl status docker
+8) sudo systemctl start docker
+9) sudo yum install git
    sudo docker info
-#  clone https://github.com/prashant169/node-todo-cicd.git
+#clone https://github.com/prashant169/node-todo-cicd.git
 6) sudo docker build -t node-app-todo .
 7) sudo docker images
    docker images | head - 5
