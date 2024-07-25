@@ -19,8 +19,8 @@
   8) sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
   9) sudo yum upgrade
   
- 10) sudo yum install java-11-openjdk         149m
- 11) sudo yum install jenkins                 82 m
+ 10) sudo yum install java-11-openjdk         
+ 11) sudo yum install jenkins                 
  12) sudo systemctl daemon-reload
 
  13) sudo systemctl status jenkins
@@ -47,14 +47,13 @@ Install the Docker Pipeline plugin in Jenkins:"Docker Pipeline".
 
 19) npm install	
 
-20) sudo mode src/index.js
+20) sudo node src/index.js
 
-21) ipv4 + 3000
+ 
+21) ipv4 + 3000 (Allow-add 3000 rul in security )
 
 22)  ps-a
 23)  sudo kill -9
-
-24)  run check | data is persisted or not 
 
 25)  npm install pm2
 26)  pm2 start "node src/index.js
