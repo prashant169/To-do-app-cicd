@@ -39,6 +39,7 @@ Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as 
  18) sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      history
 Install the Docker Pipeline plugin in Jenkins:"Docker Pipeline".
+
  # install node js 
 
 17) sudo dnf module install nodejs:18/common
@@ -52,13 +53,26 @@ Install the Docker Pipeline plugin in Jenkins:"Docker Pipeline".
  
 21) ipv4 + 3000 (Allow-add 3000 rul in security )
 
+![ec2-user@ip-172-31-81-94_~_To-do-app-cicd 25-07-2024 13_51_02](https://github.com/user-attachments/assets/582fcec6-8f00-4591-bd75-3581d4fa8ad8)
+
+
 22)  ps-a
 23)  sudo kill -9
 
 25)  npm install pm2
 26)  pm2 start "node src/index.js
 27)  pm2 status
- 28) pm2 restart "node src/index.js
+28) pm2 restart "node src/index.js
+    
+![ec2-user@ip-172-31-81-94_~_To-do-app-cicd 25-07-2024 13_59_17](https://github.com/user-attachments/assets/f29fe40b-3c87-4feb-91e9-383144804e02)
+
+![Editing To-do-app-cicd_README md at master · prashant169_To-do-app-cicd - Google Chrome 25-07-2024 14_03_43](https://github.com/user-attachments/assets/a5454ca1-02eb-4fc5-be72-0dfad9e877ac)
+
+![Editing To-do-app-cicd_README md at master · prashant169_To-do-app-cicd - Google Chrome 25-07-2024 14_04_30](https://github.com/user-attachments/assets/64242280-d221-4cc6-a2c3-ab64c6f1ec60)
+
+
+
+
 
 # Docker Install
 https://docs.docker.com/engine/install/centos/
