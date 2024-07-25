@@ -68,8 +68,7 @@ Install the Docker Pipeline plugin in Jenkins:"Docker Pipeline".
 
 ![Editing To-do-app-cicd_README md at master · prashant169_To-do-app-cicd - Google Chrome 25-07-2024 14_03_43](https://github.com/user-attachments/assets/a5454ca1-02eb-4fc5-be72-0dfad9e877ac)
 
-![Editing To-do-app-cicd_README md at master · prashant169_To-do-app-cicd - Google Chrome 25-07-2024 14_04_30](https://github.com/user-attachments/assets/64242280-d221-4cc6-a2c3-ab64c6f1ec60)
-
+ ![Instances _ EC2 _ us-east-1 - Google Chrome 25-07-2024 14_15_34](https://github.com/user-attachments/assets/5dabe8f7-61b3-4074-abe6-2c6762914dba)
 
 
 
